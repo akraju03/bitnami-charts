@@ -115,7 +115,7 @@ jobmanager:
   extraEnvVarsSecret: ""
   ## @param jobmanager.replicaCount Number of Apache Flink Jobmanager replicas
   ##
-  replicaCount: 2
+  replicaCount: 1
   ## Configure extra options for container's liveness, readiness and startup probes
   ## ref: https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/#configure-probes
   ## @param jobmanager.livenessProbe.enabled Enable livenessProbe on Jobmanager nodes
